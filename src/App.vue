@@ -2,14 +2,16 @@
   <div id="app">
     <h1>Calculadora</h1>
     <Calculator />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Calculator from "./main/Calculator"
+import Footer from "./main/Footer"
 
 export default {
-  components: { Calculator }
+  components: { Calculator, Footer}
 }
 </script>
 
